@@ -1,0 +1,71 @@
+# ============================================================
+# Unity 2022 项目通用规则
+# ============================================================
+
+# Unity 自动生成/缓存目录
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+sysinfo.txt
+crashlytics-build.properties
+
+# IDE 与工程文件（Unity 会自动重新生成）
+.vs/
+.idea/
+.gradle/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# 系统 / 编辑器垃圾文件
+.DS_Store
+Thumbs.db
+*.log
+
+# 构建输出
+*.apk
+*.aab
+*.unitypackage
+*.unitypackage.meta
+
+# ============================================================
+# 本项目特有
+# ============================================================
+
+# 历史备份、抖音小游戏构建产物、WorkBuddy 本地工作数据
+/Backup/
+/tt-minigame/
+/.workbuddy/
+/webgl.symbols.json
+
+# 第三方插件的演示资源与源素材（运行时不引用）
+# 注意：PSD.unitypackage 为 250MB，超过 GitHub 单文件 100MB 上限，必须排除
+/Assets/GUI PRO Kit - Casual Game/PSD/
+/Assets/GUI PRO Kit - Casual Game/PSD.meta
+/Assets/GUI PRO Kit - Casual Game/Preview/
+/Assets/GUI PRO Kit - Casual Game/Preview.meta
+/Assets/GUI PRO Kit - Casual Game/Scenes/
+/Assets/GUI PRO Kit - Casual Game/Scenes.meta
+/Assets/GUI PRO Kit - Casual Game/+Document README+/
+/Assets/GUI PRO Kit - Casual Game/+Document README+.meta
+/Assets/Epic Toon FX/Demo/
+/Assets/Epic Toon FX/Demo.meta
